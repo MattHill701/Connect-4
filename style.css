@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+  }
+  
+  header {
+    font-size: 64px;
+    letter-spacing: 32px;
+    font-family: sans-serif;
+    border-bottom: 1px solid white;
+    margin-bottom: 64px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .grid {
+    width: 675px;
+    height: 580px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 48px;
+    border: 1px solid black;
+    background: royalblue;
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  
+  .grid .cell {
+    flex: 0 0 86px;
+    height: 86px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #eee;
+    margin: 5px;
+  }
+  
+  .player-1 {
+    background-color: red;
+  }
+
+  .computer {
+    text-align: left;
+    background-color: yellow;
+  }
+
+  .player-2 {
+    text-align: left;
+    background-color: yellow;
+  }
+
+
+  section.drop button {
+    margin: 13px;
+}
+
+footer{
+  font-family: sans-serif;
+  margin-bottom: 15px;
+}
